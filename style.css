@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Akhil Fitness</title>
-</head>
-
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
-<!--<style>
-    body {
+body {
         margin: 0px;
         padding: 0px;
         background: url('images/gymimage.jpg');
@@ -114,51 +102,3 @@
         padding: 8px 99px;
         width: 59%;
     }
-
-</style>-->
-
-<body>
-    <header class="header">
-        <!-- left box for logo -->
-        <div class="left">
-            <img src="images/gym.jpg" alt="">
-            <div>AKHIL FITNESS</div>
-        </div>
-        <!-- mid box for navbar -->
-        <div class="mid">
-            <ul class="navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Fitness center</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </div>
-        <!-- right box for buttons -->
-        <div class="right">
-            <button class="btn">Call Us Now</button>
-            <button class="btn">Email Us</button>
-        </div>
-    </header>
-    <div class="container">
-        <h3>JOIN THE BEST GYM OF HYDERABAD NOW</h3>
-        <form action="noaction.php" class="action">
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your name">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Age">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Gender">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Locality">
-            </div>
-            <button class="btn">
-                Submit
-            </button>
-        </form>
-    </div>
-</body>
-
-</html>
